@@ -17,4 +17,4 @@ services:
     environment:
       - POSTGRES_USER=db_user
       - POSTGRES_PASSWORD=db_password
-      - POSTGRES_DB=db
+      - POSTGRES_DB=db_name
