@@ -42,5 +42,5 @@ jobs:
           password: ${{ secrets.SERVER_PASSWORD }}
           script: |
             cd test_app
-            docker-compose -d
+            docker-compose up -d
 
